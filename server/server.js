@@ -1,11 +1,10 @@
 const express = require("express");
 const app = express();
 const port = 5000;
+const cors = require("cors");
 
 const TOKEN =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzE1NDI1NTE1LCJpYXQiOjE3MTU0MjUyMTUsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjlmZDkyMTdiLWQxOGItNDFhYS05MDg2LTc0NTUzYjk4MDU3MiIsInN1YiI6InJjYmFsYWppMjAwM0BnbWFpbC5jb20ifSwiY29tcGFueU5hbWUiOiJOR1BJVCIsImNsaWVudElEIjoiOWZkOTIxN2ItZDE4Yi00MWFhLTkwODYtNzQ1NTNiOTgwNTcyIiwiY2xpZW50U2VjcmV0IjoiV3FhVlR6RHREeWxhWXJDZCIsIm93bmVyTmFtZSI6IkJhbGFqaSIsIm93bmVyRW1haWwiOiJyY2JhbGFqaTIwMDNAZ21haWwuY29tIiwicm9sbE5vIjoiMjFJVDAwNyJ9.4zN9Mg-FL-MixOW54ATx1Y8XYQVyxF1B21Py2VVc0OE";
-
-// Map to store product details for easy retrieval by ID
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzE1NDI3NzcyLCJpYXQiOjE3MTU0Mjc0NzIsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjlmZDkyMTdiLWQxOGItNDFhYS05MDg2LTc0NTUzYjk4MDU3MiIsInN1YiI6InJjYmFsYWppMjAwM0BnbWFpbC5jb20ifSwiY29tcGFueU5hbWUiOiJOR1BJVCIsImNsaWVudElEIjoiOWZkOTIxN2ItZDE4Yi00MWFhLTkwODYtNzQ1NTNiOTgwNTcyIiwiY2xpZW50U2VjcmV0IjoiV3FhVlR6RHREeWxhWXJDZCIsIm93bmVyTmFtZSI6IkJhbGFqaSIsIm93bmVyRW1haWwiOiJyY2JhbGFqaTIwMDNAZ21haWwuY29tIiwicm9sbE5vIjoiMjFJVDAwNyJ9.hyNm-LSTJx6wG8lSSv0t1-Cn9I9S2vV8SRIQvpa5Ixg";
 const productDetailsCache = new Map();
 
 // Generate a unique identifier for each product
@@ -47,6 +46,7 @@ async function fetchProductsFromAPI(
   }
 }
 
+app.use(cors());
 // GET products within a category with sorting and pagination
 app.get("/categories/:categoryname/products", async (req, res) => {
   const { categoryname } = req.params;
