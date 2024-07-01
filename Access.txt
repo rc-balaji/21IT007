@@ -1,0 +1,43 @@
+https://docs.google.com/document/d/16bv3CimdzMwdI5SLC673H4P8lkpGq8GGuz92Mh6nuDg/edit#heading=h.7zrct5thxdg3
+
+https://20.244.56.144/test/register
+{
+    "companyName": "NGPIT",
+    "ownerName": "Balaji",
+    "rollNo": "21IT007",
+    "ownerEmail": "rcbalaji2003@gmail.com",
+    "accessCode": "iubwwE"
+
+}
+
+https://20.244.56.144/test/auth
+{
+    "companyName": "NGPIT",
+    "clientID": "9fd9217b-d18b-41aa-9086-74553b980572",
+    "clientSecret": "WqaVTzDtDylaYrCd",
+    "ownerName": "Balaji",
+    "ownerEmail": "rcbalaji2003@gmail.com",
+    "rollNo": "21IT007"
+}
+
+
+Final Response:-
+{
+    "token_type": "Bearer",
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzE1NDI0MjEzLCJpYXQiOjE3MTU0MjM5MTMsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjlmZDkyMTdiLWQxOGItNDFhYS05MDg2LTc0NTUzYjk4MDU3MiIsInN1YiI6InJjYmFsYWppMjAwM0BnbWFpbC5jb20ifSwiY29tcGFueU5hbWUiOiJOR1BJVCIsImNsaWVudElEIjoiOWZkOTIxN2ItZDE4Yi00MWFhLTkwODYtNzQ1NTNiOTgwNTcyIiwiY2xpZW50U2VjcmV0IjoiV3FhVlR6RHREeWxhWXJDZCIsIm93bmVyTmFtZSI6IkJhbGFqaSIsIm93bmVyRW1haWwiOiJyY2JhbGFqaTIwMDNAZ21haWwuY29tIiwicm9sbE5vIjoiMjFJVDAwNyJ9.Gp2pXxTfYzg7g0wYujLwZhgpAidLGfWnHlOt2Y_7MAs",
+    "expires_in": 1715424213
+}
+
+
+Checking:-
+http://localhost:3000/test/companies/AZO/categories/TV/products?top=20&minPrice=1&maxPrice=10000
+
+http://localhost:5000/categories/TV/products?company=AZO&n=10&sort=price&order=asc
+
+http://localhost:5000/categories/TV/products/AZO-TV-972-1715966697967
+
+
+
+
+
+

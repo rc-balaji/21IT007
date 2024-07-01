@@ -1,20 +1,17 @@
-// Import necessary dependencies
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-// Define the ProductDetails component
 function ProductDetails() {
-  // Define state variables
-  const { id } = useParams();
+  const { id, category } = useParams();
   const [product, setProduct] = useState({});
 
-  // Fetch product details based on ID
   useEffect(() => {
     const fetchProduct = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:5000/categories/phones/products/${id}`
+          `http://localhost:5000/categories/${category}/products/${id}`
         );
         setProduct(response.data);
       } catch (error) {
@@ -22,31 +19,26 @@ function ProductDetails() {
       }
     };
     fetchProduct();
-  }, [id]);
+  }, [id, category]);
 
-  // Check if the image URL is available and if not provide a default placeholder
-  const imageUrl = product.image ? product.image : "placeholder-image-url.jpg";
-
-  // Return JSX for product details page
   return (
-    <div className="card">
-      {/* Conditional rendering of the product image */}
-      <img
-        src={imageUrl}
-        className="card-img-top"
-        alt={product.productName || "Product Image"}
-      />
-      <div className="card-body">
-        {/* Product name */}
-        <h5 className="card-title">{product.productName}</h5>
-        {/* Product price */}
-        <p className="card-text">Price: ${product.price}</p>
-        {/* Product rating */}
-        <p className="card-text">Rating: {product.rating || "N/A"}</p>
-        {/* Product discount */}
-        <p className="card-text">Discount: {product.discount}%</p>
-        {/* Product availability */}
-        <p className="card-text">Availability: {product.availability}</p>
+    <div className="d-flex flex-column justify-content-center align-items-center min-vh-100">
+      <h1 className="mb-4">Product Detail</h1>
+      <div className="card w-50">
+        <div className="card-body">
+          <h5 className="card-title text-center">{product.productName}</h5>
+          <p className="card-text text-left">Price: ${product.price}</p>
+          <p className="card-text text-left">
+            Rating: {product.rating || "N/A"}
+          </p>
+          <p className="card-text text-left">Discount: {product.discount}%</p>
+          <p className="card-text text-left">
+            Availability: {product.availability}
+          </p>
+          <p className="card-text text-left">Category: {product.category}</p>
+          <p className="card-text text-left">Company: {product.company}</p>
+          <p className="card-text text-left">Product ID: {id}</p>
+        </div>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ function App() {
       <div className="container mt-5">
         <Routes>
           <Route path="/" element={<ProductList />} />
-          <Route path="/product/:id" element={<ProductDetails />} />
+          <Route path="/product/:category/:id" element={<ProductDetails />} />
         </Routes>
       </div>
     </Router>

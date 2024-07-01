@@ -1,0 +1,902 @@
+[
+  {
+    "productName": "Laptop 809",
+    "price": 4419,
+    "rating": 5,
+    "discount": 17,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "Laptop"
+  },
+  {
+    "productName": "Bluetooth 611",
+    "price": 9125,
+    "rating": 4,
+    "discount": 54,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Bluetooth"
+  },
+  {
+    "productName": "Earphone 354",
+    "price": 1731,
+    "rating": 4,
+    "discount": 68,
+    "availability": "out-of-stock",
+    "company": "SNP",
+    "category": "Earphone"
+  },
+  {
+    "productName": "TV 228",
+    "price": 3837,
+    "rating": 1,
+    "discount": 50,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "TV"
+  },
+  {
+    "productName": "Laptop 434",
+    "price": 9382,
+    "rating": 3,
+    "discount": 22,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Laptop"
+  },
+  {
+    "productName": "Laptop 794",
+    "price": 3629,
+    "rating": 7,
+    "discount": 17,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "Laptop"
+  },
+  {
+    "productName": "Headset 300",
+    "price": 6381,
+    "rating": 3,
+    "discount": 20,
+    "availability": "out-of-stock",
+    "company": "AMZ",
+    "category": "Headset"
+  },
+  {
+    "productName": "Phone 973",
+    "price": 2543,
+    "rating": 8,
+    "discount": 87,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "Phone"
+  },
+  {
+    "productName": "Tablet 397",
+    "price": 2669,
+    "rating": 3,
+    "discount": 98,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Tablet"
+  },
+  {
+    "productName": "Keypad 645",
+    "price": 2498,
+    "rating": 9,
+    "discount": 42,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Keypad"
+  },
+  {
+    "productName": "Computer 539",
+    "price": 6097,
+    "rating": 4,
+    "discount": 11,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Computer"
+  },
+  {
+    "productName": "Computer 711",
+    "price": 3392,
+    "rating": 4,
+    "discount": 58,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Computer"
+  },
+  {
+    "productName": "Keypad 125",
+    "price": 82,
+    "rating": 1,
+    "discount": 76,
+    "availability": "out-of-stock",
+    "company": "AMZ",
+    "category": "Keypad"
+  },
+  {
+    "productName": "Headset 957",
+    "price": 6377,
+    "rating": 9,
+    "discount": 99,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Headset"
+  },
+  {
+    "productName": "Mouse 501",
+    "price": 8753,
+    "rating": 6,
+    "discount": 7,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Mouse"
+  },
+  {
+    "productName": "Phone 514",
+    "price": 2756,
+    "rating": 5,
+    "discount": 71,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Phone"
+  },
+  {
+    "productName": "TV 712",
+    "price": 1552,
+    "rating": 3,
+    "discount": 91,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "TV"
+  },
+  {
+    "productName": "Mouse 846",
+    "price": 7125,
+    "rating": 7,
+    "discount": 98,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Mouse"
+  },
+  {
+    "productName": "Speaker 399",
+    "price": 9827,
+    "rating": 6,
+    "discount": 87,
+    "availability": "out-of-stock",
+    "company": "FLP",
+    "category": "Speaker"
+  },
+  {
+    "productName": "Computer 53",
+    "price": 1271,
+    "rating": 8,
+    "discount": 93,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Computer"
+  },
+  {
+    "productName": "Charger 24",
+    "price": 2617,
+    "rating": 9,
+    "discount": 25,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Charger"
+  },
+  {
+    "productName": "Computer 431",
+    "price": 5528,
+    "rating": 7,
+    "discount": 5,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Computer"
+  },
+  {
+    "productName": "Headset 401",
+    "price": 1689,
+    "rating": 7,
+    "discount": 100,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Headset"
+  },
+  {
+    "productName": "TV 617",
+    "price": 9199,
+    "rating": 7,
+    "discount": 81,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "TV"
+  },
+  {
+    "productName": "Headset 718",
+    "price": 1998,
+    "rating": 7,
+    "discount": 83,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Headset"
+  },
+  {
+    "productName": "Earphone 803",
+    "price": 7932,
+    "rating": 9,
+    "discount": 37,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Earphone"
+  },
+  {
+    "productName": "PC 96",
+    "price": 1329,
+    "rating": 9,
+    "discount": 87,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "PC"
+  },
+  {
+    "productName": "Charger 125",
+    "price": 2653,
+    "rating": 2,
+    "discount": 23,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "Charger"
+  },
+  {
+    "productName": "Earphone 402",
+    "price": 1649,
+    "rating": 5,
+    "discount": 85,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "Earphone"
+  },
+  {
+    "productName": "Mouse 915",
+    "price": 4472,
+    "rating": 4,
+    "discount": 46,
+    "availability": "out-of-stock",
+    "company": "AMZ",
+    "category": "Mouse"
+  },
+  {
+    "productName": "Charger 347",
+    "price": 1577,
+    "rating": 5,
+    "discount": 49,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Charger"
+  },
+  {
+    "productName": "Laptop 714",
+    "price": 7341,
+    "rating": 9,
+    "discount": 65,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Laptop"
+  },
+  {
+    "productName": "Phone 61",
+    "price": 1230,
+    "rating": 7,
+    "discount": 41,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "Phone"
+  },
+  {
+    "productName": "Phone 941",
+    "price": 8470,
+    "rating": 6,
+    "discount": 90,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "Phone"
+  },
+  {
+    "productName": "Mouse 524",
+    "price": 4781,
+    "rating": 7,
+    "discount": 100,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "Mouse"
+  },
+  {
+    "productName": "PC 695",
+    "price": 5812,
+    "rating": 6,
+    "discount": 10,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "PC"
+  },
+  {
+    "productName": "Computer 517",
+    "price": 551,
+    "rating": 9,
+    "discount": 74,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "Computer"
+  },
+  {
+    "productName": "Computer 436",
+    "price": 2694,
+    "rating": 1,
+    "discount": 69,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Computer"
+  },
+  {
+    "productName": "Earphone 755",
+    "price": 8703,
+    "rating": 9,
+    "discount": 75,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Earphone"
+  },
+  {
+    "productName": "TV 972",
+    "price": 3505,
+    "rating": 2,
+    "discount": 35,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "TV"
+  },
+  {
+    "productName": "TV 606",
+    "price": 4606,
+    "rating": 9,
+    "discount": 62,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "TV"
+  },
+  {
+    "productName": "Laptop 420",
+    "price": 6595,
+    "rating": 4,
+    "discount": 58,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Laptop"
+  },
+  {
+    "productName": "Pendrive 648",
+    "price": 1287,
+    "rating": 7,
+    "discount": 1,
+    "availability": "out-of-stock",
+    "company": "AMZ",
+    "category": "Pendrive"
+  },
+  {
+    "productName": "Laptop 973",
+    "price": 8690,
+    "rating": 5,
+    "discount": 24,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Laptop"
+  },
+  {
+    "productName": "Bluetooth 397",
+    "price": 2427,
+    "rating": 10,
+    "discount": 52,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Bluetooth"
+  },
+  {
+    "productName": "Phone 123",
+    "price": 8351,
+    "rating": 1,
+    "discount": 57,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "Phone"
+  },
+  {
+    "productName": "Remote 910",
+    "price": 8328,
+    "rating": 5,
+    "discount": 30,
+    "availability": "out-of-stock",
+    "company": "AMZ",
+    "category": "Remote"
+  },
+  {
+    "productName": "Phone 717",
+    "price": 5915,
+    "rating": 2,
+    "discount": 60,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "Phone"
+  },
+  {
+    "productName": "Phone 935",
+    "price": 5726,
+    "rating": 3,
+    "discount": 26,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Phone"
+  },
+  {
+    "productName": "Earphone 428",
+    "price": 3200,
+    "rating": 8,
+    "discount": 87,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "Earphone"
+  },
+  {
+    "productName": "Headset 675",
+    "price": 6273,
+    "rating": 3,
+    "discount": 1,
+    "availability": "out-of-stock",
+    "company": "FLP",
+    "category": "Headset"
+  },
+  {
+    "productName": "Mouse 674",
+    "price": 6442,
+    "rating": 3,
+    "discount": 13,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Mouse"
+  },
+  {
+    "productName": "PC 893",
+    "price": 16,
+    "rating": 3,
+    "discount": 57,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "PC"
+  },
+  {
+    "productName": "TV 200",
+    "price": 4630,
+    "rating": 2,
+    "discount": 74,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "TV"
+  },
+  {
+    "productName": "Computer 891",
+    "price": 7186,
+    "rating": 8,
+    "discount": 89,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "Computer"
+  },
+  {
+    "productName": "Headset 688",
+    "price": 3314,
+    "rating": 10,
+    "discount": 57,
+    "availability": "out-of-stock",
+    "company": "FLP",
+    "category": "Headset"
+  },
+  {
+    "productName": "Pendrive 322",
+    "price": 7292,
+    "rating": 3,
+    "discount": 12,
+    "availability": "out-of-stock",
+    "company": "FLP",
+    "category": "Pendrive"
+  },
+  {
+    "productName": "Bluetooth 1",
+    "price": 5238,
+    "rating": 9,
+    "discount": 60,
+    "availability": "out-of-stock",
+    "company": "AZO",
+    "category": "Bluetooth"
+  },
+  {
+    "productName": "Keypad 259",
+    "price": 1506,
+    "rating": 2,
+    "discount": 65,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Keypad"
+  },
+  {
+    "productName": "Speaker 59",
+    "price": 9789,
+    "rating": 9,
+    "discount": 63,
+    "availability": "out-of-stock",
+    "company": "AMZ",
+    "category": "Speaker"
+  },
+  {
+    "productName": "Bluetooth 757",
+    "price": 1427,
+    "rating": 3,
+    "discount": 59,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "Bluetooth"
+  },
+  {
+    "productName": "Bluetooth 616",
+    "price": 6473,
+    "rating": 7,
+    "discount": 90,
+    "availability": "out-of-stock",
+    "company": "AZO",
+    "category": "Bluetooth"
+  },
+  {
+    "productName": "Pendrive 950",
+    "price": 9909,
+    "rating": 3,
+    "discount": 96,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Pendrive"
+  },
+  {
+    "productName": "Charger 390",
+    "price": 7485,
+    "rating": 1,
+    "discount": 23,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Charger"
+  },
+  {
+    "productName": "Phone 179",
+    "price": 616,
+    "rating": 2,
+    "discount": 42,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Phone"
+  },
+  {
+    "productName": "Mouse 871",
+    "price": 8445,
+    "rating": 5,
+    "discount": 59,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Mouse"
+  },
+  {
+    "productName": "Headset 944",
+    "price": 5073,
+    "rating": 10,
+    "discount": 94,
+    "availability": "out-of-stock",
+    "company": "FLP",
+    "category": "Headset"
+  },
+  {
+    "productName": "Speaker 126",
+    "price": 4866,
+    "rating": 4,
+    "discount": 89,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "Speaker"
+  },
+  {
+    "productName": "Charger 840",
+    "price": 6136,
+    "rating": 4,
+    "discount": 17,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Charger"
+  },
+  {
+    "productName": "Tablet 255",
+    "price": 8067,
+    "rating": 8,
+    "discount": 39,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Tablet"
+  },
+  {
+    "productName": "Speaker 814",
+    "price": 4827,
+    "rating": 2,
+    "discount": 69,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "Speaker"
+  },
+  {
+    "productName": "Keypad 528",
+    "price": 7569,
+    "rating": 10,
+    "discount": 17,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Keypad"
+  },
+  {
+    "productName": "PC 554",
+    "price": 8341,
+    "rating": 4,
+    "discount": 5,
+    "availability": "out-of-stock",
+    "company": "AZO",
+    "category": "PC"
+  },
+  {
+    "productName": "TV 335",
+    "price": 2921,
+    "rating": 7,
+    "discount": 31,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "TV"
+  },
+  {
+    "productName": "Laptop 226",
+    "price": 1615,
+    "rating": 5,
+    "discount": 63,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "Laptop"
+  },
+  {
+    "productName": "TV 407",
+    "price": 6395,
+    "rating": 5,
+    "discount": 44,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "TV"
+  },
+  {
+    "productName": "Tablet 415",
+    "price": 9986,
+    "rating": 5,
+    "discount": 74,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Tablet"
+  },
+  {
+    "productName": "Laptop 386",
+    "price": 5929,
+    "rating": 1,
+    "discount": 17,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Laptop"
+  },
+  {
+    "productName": "Phone 939",
+    "price": 3749,
+    "rating": 5,
+    "discount": 62,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "Phone"
+  },
+  {
+    "productName": "Pendrive 442",
+    "price": 5947,
+    "rating": 2,
+    "discount": 28,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Pendrive"
+  },
+  {
+    "productName": "Charger 668",
+    "price": 5814,
+    "rating": 5,
+    "discount": 14,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "Charger"
+  },
+  {
+    "productName": "Keypad 263",
+    "price": 3365,
+    "rating": 4,
+    "discount": 30,
+    "availability": "out-of-stock",
+    "company": "FLP",
+    "category": "Keypad"
+  },
+  {
+    "productName": "Mouse 47",
+    "price": 1531,
+    "rating": 7,
+    "discount": 3,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Mouse"
+  },
+  {
+    "productName": "Computer 369",
+    "price": 5163,
+    "rating": 7,
+    "discount": 58,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Computer"
+  },
+  {
+    "productName": "Headset 732",
+    "price": 8783,
+    "rating": 5,
+    "discount": 13,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Headset"
+  },
+  {
+    "productName": "Earphone 942",
+    "price": 7843,
+    "rating": 1,
+    "discount": 55,
+    "availability": "out-of-stock",
+    "company": "AZO",
+    "category": "Earphone"
+  },
+  {
+    "productName": "Mouse 788",
+    "price": 3304,
+    "rating": 4,
+    "discount": 60,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "Mouse"
+  },
+  {
+    "productName": "Charger 651",
+    "price": 2929,
+    "rating": 7,
+    "discount": 12,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Charger"
+  },
+  {
+    "productName": "Mouse 285",
+    "price": 5711,
+    "rating": 9,
+    "discount": 80,
+    "availability": "out-of-stock",
+    "company": "FLP",
+    "category": "Mouse"
+  },
+  {
+    "productName": "Bluetooth 732",
+    "price": 8474,
+    "rating": 7,
+    "discount": 2,
+    "availability": "out-of-stock",
+    "company": "AMZ",
+    "category": "Bluetooth"
+  },
+  {
+    "productName": "Phone 339",
+    "price": 6911,
+    "rating": 2,
+    "discount": 25,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "Phone"
+  },
+  {
+    "productName": "Headset 829",
+    "price": 6691,
+    "rating": 7,
+    "discount": 30,
+    "availability": "yes",
+    "company": "AMZ",
+    "category": "Headset"
+  },
+  {
+    "productName": "Laptop 732",
+    "price": 3297,
+    "rating": 10,
+    "discount": 42,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "Laptop"
+  },
+  {
+    "productName": "PC 812",
+    "price": 3095,
+    "rating": 5,
+    "discount": 98,
+    "availability": "yes",
+    "company": "AZO",
+    "category": "PC"
+  },
+  {
+    "productName": "Speaker 238",
+    "price": 1132,
+    "rating": 7,
+    "discount": 1,
+    "availability": "yes",
+    "company": "MYN",
+    "category": "Speaker"
+  },
+  {
+    "productName": "Tablet 721",
+    "price": 7234,
+    "rating": 7,
+    "discount": 94,
+    "availability": "out-of-stock",
+    "company": "MYN",
+    "category": "Tablet"
+  },
+  {
+    "productName": "Computer 548",
+    "price": 5430,
+    "rating": 1,
+    "discount": 31,
+    "availability": "out-of-stock",
+    "company": "AMZ",
+    "category": "Computer"
+  },
+  {
+    "productName": "Headset 372",
+    "price": 6681,
+    "rating": 1,
+    "discount": 65,
+    "availability": "yes",
+    "company": "FLP",
+    "category": "Headset"
+  },
+  {
+    "productName": "PC 789",
+    "price": 9784,
+    "rating": 6,
+    "discount": 10,
+    "availability": "yes",
+    "company": "SNP",
+    "category": "PC"
+  },
+  {
+    "productName": "Pendrive 597",
+    "price": 4153,
+    "rating": 5,
+    "discount": 36,
+    "availability": "out-of-stock",
+    "company": "AZO",
+    "category": "Pendrive"
+  }
+]

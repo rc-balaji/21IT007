@@ -1,20 +1,22 @@
-// Import necessary dependencies
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
-import ProductCard from "./ProductCard.jsx"; // Create a separate component for product card
+import ProductCard from "./ProductCard.jsx";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-// Define the ProductList component
 function ProductList() {
-  // Define state variables
-  const [products, setProducts] = useState([]);
-  const [company, setCompany] = useState("AMZ");
-  const [category, setCategory] = useState("Phone");
-  const [n, setN] = useState(20);
-  const [sort, setSort] = useState("price");
-  const [order, setOrder] = useState("asc");
+  const initialCompany = localStorage.getItem("company") || "AMZ";
+  const initialCategory = localStorage.getItem("category") || "Phone";
+  const initialN = localStorage.getItem("n") || 20;
+  const initialSort = localStorage.getItem("sort") || "price";
+  const initialOrder = localStorage.getItem("order") || "asc";
 
-  // Array of companies and categories
+  const [products, setProducts] = useState([]);
+  const [company, setCompany] = useState(initialCompany);
+  const [category, setCategory] = useState(initialCategory);
+  const [n, setN] = useState(initialN);
+  const [sort, setSort] = useState(initialSort);
+  const [order, setOrder] = useState(initialOrder);
+
   const companies = ["AMZ", "FLP", "SNP", "MYN", "AZO"];
   const categories = [
     "Phone",
@@ -34,7 +36,6 @@ function ProductList() {
     "PC",
   ];
 
-  // Fetch products based on selected criteria
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -45,6 +46,7 @@ function ProductList() {
           }
         );
         setProducts(response.data);
+        console.log(response.data);
       } catch (error) {
         console.error("Error fetching data: ", error);
       }
@@ -52,67 +54,104 @@ function ProductList() {
     fetchProducts();
   }, [category, n, company, sort, order]);
 
-  // Return JSX for product list page
+  useEffect(() => {
+    localStorage.setItem("company", company);
+  }, [company]);
+
+  useEffect(() => {
+    localStorage.setItem("category", category);
+  }, [category]);
+
+  useEffect(() => {
+    localStorage.setItem("n", n);
+  }, [n]);
+
+  useEffect(() => {
+    localStorage.setItem("sort", sort);
+  }, [sort]);
+
+  useEffect(() => {
+    localStorage.setItem("order", order);
+  }, [order]);
+
   return (
-    <div>
-      {/* Filters and sorting options */}
-      <div className="mb-3">
-        {/* Dropdown for company selection */}
-        <select
-          value={company}
-          onChange={(e) => setCompany(e.target.value)}
-          className="form-select"
-        >
-          {companies.map((comp) => (
-            <option key={comp} value={comp}>
-              {comp}
-            </option>
-          ))}
-        </select>
-        {/* Dropdown for category selection */}
-        <select
-          value={category}
-          onChange={(e) => setCategory(e.target.value)}
-          className="form-select"
-        >
-          {categories.map((cat) => (
-            <option key={cat} value={cat}>
-              {cat}
-            </option>
-          ))}
-        </select>
-        {/* Input for number of products to display */}
-        <input
-          type="number"
-          value={n}
-          onChange={(e) => setN(e.target.value)}
-          className="form-control"
-        />
-        {/* Dropdown for sorting */}
-        <select
-          value={sort}
-          onChange={(e) => setSort(e.target.value)}
-          className="form-select"
-        >
-          <option value="price">Price</option>
-          <option value="rating">Rating</option>
-          <option value="discount">Discount</option>
-        </select>
-        {/* Dropdown for sorting order */}
-        <select
-          value={order}
-          onChange={(e) => setOrder(e.target.value)}
-          className="form-select"
-        >
-          <option value="asc">Ascending</option>
-          <option value="desc">Descending</option>
-        </select>
+    <div className="container">
+      <h1 className="text-center mt-5 mb-4">E-Commerce Website</h1>
+      <div className="row mb-3">
+        <div className="col-md-3">
+          <label className="form-label">Category</label>
+          <select
+            value={category}
+            onChange={(e) => setCategory(e.target.value)}
+            className="form-select"
+          >
+            {categories.map((cat) => (
+              <option key={cat} value={cat}>
+                {cat}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="col-md-3">
+          <label className="form-label">Company</label>
+          <select
+            value={company}
+            onChange={(e) => setCompany(e.target.value)}
+            className="form-select"
+          >
+            {companies.map((comp) => (
+              <option key={comp} value={comp}>
+                {comp}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="col-md-2">
+          <label className="form-label">No of Products</label>
+          <input
+            type="number"
+            value={n}
+            onChange={(e) => setN(e.target.value)}
+            className="form-control"
+            min={0}
+          />
+        </div>
+        <div className="col-md-2">
+          <label className="form-label">Sort By</label>
+          <select
+            value={sort}
+            onChange={(e) => setSort(e.target.value)}
+            className="form-select"
+          >
+            <option value="price">Price</option>
+            <option value="rating">Rating</option>
+            <option value="discount">Discount</option>
+          </select>
+        </div>
+        <div className="col-md-2">
+          <label className="form-label">Order</label>
+          <select
+            value={order}
+            onChange={(e) => setOrder(e.target.value)}
+            className="form-select"
+          >
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+          </select>
+        </div>
       </div>
-      {/* Product cards */}
       <div className="row">
-        {products.map((product, index) => (
-          <ProductCard key={index} product={product} />
-        ))}
+        {products.length > 0 ? (
+          products.map((product, index) => (
+            <div key={index} className="col-md-4 mb-3">
+              <ProductCard product={product} />
+            </div>
+          ))
+        ) : (
+          <div className="col-md-12 text-center mt-5">
+            <h3>No Results Found</h3>
+          </div>
+        )}
       </div>
     </div>
   );
